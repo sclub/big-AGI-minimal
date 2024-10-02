@@ -36,6 +36,7 @@ const desktopSx: SxProps = {
 export const ButtonBeamMemo = React.memo(ButtonBeam);
 
 function ButtonBeam(props: { isMobile?: boolean, disabled?: boolean, hasContent?: boolean, onClick: () => void }) {
+  return
   return props.isMobile ? (
     <IconButton variant='soft' color='primary' disabled={props.disabled} onClick={props.onClick} sx={mobileSx}>
       <ChatBeamIcon />
