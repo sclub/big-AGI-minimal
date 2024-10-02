@@ -105,6 +105,7 @@ export const navItems: {
       route: '/call',
       hideDrawer: true,
       fullWidth: true,
+	  _delete: true,
     },
     {
       name: 'Draw',
@@ -153,6 +154,7 @@ export const navItems: {
       type: 'app',
       route: SPECIAL_DIVIDER,
       icon: () => null,
+	   _delete: true,
     },
     {
       name: 'Personas',
@@ -161,6 +163,7 @@ export const navItems: {
       type: 'app',
       route: '/personas',
       hideBar: true,
+	  _delete: true,
     },
     {
       name: 'Beam',
@@ -170,6 +173,7 @@ export const navItems: {
       hideDrawer: true,
       hideIcon: true,
       isDev: true,
+	  _delete: true,
     },
     {
       name: 'Media Library',
@@ -199,6 +203,7 @@ export const navItems: {
       route: '/news',
       hideBar: true,
       hideDrawer: true,
+	  _delete: true,
     },
   ],
 
@@ -226,12 +231,12 @@ export const navItems: {
     //   icon: TwitterIcon,
     //   href: 'https://twitter.com',
     // },
-    {
-      type: 'extLink',
-      name: 'Discord',
-      icon: DiscordIcon,
-      href: Brand.URIs.SupportInvite,
-    },
+    // {
+    //  type: 'extLink',
+    //  name: 'Discord',
+    //  icon: DiscordIcon,
+    //  href: Brand.URIs.SupportInvite,
+    // },
     {
       type: 'extLink',
       name: 'GitHub',
